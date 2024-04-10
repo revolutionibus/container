@@ -1,0 +1,15 @@
+Bootstrap: docker
+From: mpifrpsr/dspsr
+
+%help
+
+A singularity container with psrchive, python-psrchive, and some useful python modules
+
+%post
+    pip install pandas
+    pip install gwpy
+    pip install tables
+    pip install ipython
+    pip install libstempo
+    pip install enterprise-pulsar
+    pip install git+https://github.com/nanograv/enterprise_extensions@master
