@@ -14,5 +14,6 @@ If the softwares (i.e: tempo2 psrchive and others do not any dependency issues t
 | 2023-05-30 |	22.04	| 3.10|	4d70cf8da953 |
 
 for more information:[ check out this Github page](https://github.com/jupyter/docker-stacks)
+and [this page](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
 
 
