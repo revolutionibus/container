@@ -2,7 +2,7 @@ This is a Apptainer definition file Which has the tempo2, psrchive, libstempo an
 If the softwares (i.e: tempo2 psrchive and others do not any dependency issues then we can try using these hashtags in the second line as well )
 
 
-| Build Date |	Ubuntu|	Python| 	Tag |
+| Build Date | Ubuntu |	Python| 	Tag |
 | ========== | ====== | ===== | ===== |
 | 2022-10-09 |	20.04 |	3.7	| 1aac87eb7fa5 |
 | 2022-10-09 |	20.04	| 3.8	| a374cab4fcb6 |
