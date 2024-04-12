@@ -1,0 +1,13 @@
+Bootstrap: docker
+From: jupyter/minimal-notebook:4d70cf8da953
+
+%post
+   conda install psrchive
+   conda install -c conda-forge libstempo
+   conda install -c conda-forge enterprise-pulsar
+   pip install git+https://github.com/nanograv/enterprise_extensions@master
+   cd /opt/conda/share/tempo2/earth/ 
+   bash update_eop.sh
+
+%startscript
+   jupyter notebook --port 8850
