@@ -3,7 +3,7 @@ If the softwares (i.e: tempo2 psrchive and others do not any dependency issues t
 
 
 | Build Date | Ubuntu |	Python| 	Tag |
-| ========== | ====== | ===== | ===== |
+| ---------- | ------ | ----- | ----- |
 | 2022-10-09 |	20.04 |	3.7	| 1aac87eb7fa5 |
 | 2022-10-09 |	20.04	| 3.8	| a374cab4fcb6 |
 | 2022-10-09 | 	20.04	| 3.9	| 5ae537728c69 |
